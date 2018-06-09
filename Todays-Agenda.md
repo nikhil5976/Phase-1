@@ -8,5 +8,5 @@
 
 ### 4. Start Phase-1.1
 
-### 5. About our training (Advertisement).
+### 5. About our training (Advertisement - You can exit if you don't want to know about it).
 
