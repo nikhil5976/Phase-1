@@ -8,7 +8,9 @@
 
 ### 4. Start Phase-1.1
 
-### 5. When we will start Phase1.2? --> Next Saturday same time.
+# 10 mins break
+
+### 5. Start Phase-1.2
 
 ### 6. About our training (Advertisement - You can exit if you don't want to know about it).
 
