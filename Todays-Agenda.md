@@ -10,9 +10,11 @@
 
 # 10 mins break
 
-### 5. Start Phase-1.2
+### 5. Nexus intro.
 
-### 6. About our training (Advertisement - You can exit if you don't want to know about it).
+### 6. Start Phase-1.2
+
+### 7. About our training (Advertisement - You can exit if you don't want to know about it).
 
         We are planning our training(paid) on DevOps as below.
         
