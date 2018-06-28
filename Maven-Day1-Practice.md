@@ -95,3 +95,23 @@
 	Remote repo: nexus/artifactory.
 	
 	Local repo --> Centarl repo --> Remote repo
+
+# What you learnt
+
+
+1. Compilation: 
+
+   Converting from .java files to .class
+   
+2. we need to re-compile for every change in .java files.
+
+3. Project structure for different java/maven projects.
+
+	mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart
+	
+	src/main/java --> *.java (original source)
+	src/test/java --> *Test.java (jnunit test files)
+	
+4. Maven lifecycle phases (upto install>
+
+5. Maven will genarte a quality product/package. (bcs of junit test cases)
