@@ -2,9 +2,24 @@
 
 1. GitHub Intro.
 
-2. Create repo & settings (other tabs).
+2. Create Repo & settings (other tabs).
+
+        1. Rename repo.
+        2. Danzer Zone (delete, transfer etc).
+        3. Branches >> Default branch & Branch protection(4).
+        4. Integrations & Services >> Jenkins.
+        5. Issues.
+        6. Pull Requests(5).
+        7. Projects.
+        8. Wiki pages.
+        9. Insights >> Forks.
 
 3. Create Organization & settings (other tabs).
+
+        1. People(4).
+        2. Teams(4).
+        3. Projects.
+        4. Settings >> Profile & Member Privileges.
 
 4. Create teams & protecting branches.
 
