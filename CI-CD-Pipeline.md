@@ -21,5 +21,4 @@ Test (Selelium/Tosca etc)
 #CI-CD Pipleine implementation in Jenkins
 
 
-
-![image](https://user-images.githubusercontent.com/24622526/42416280-1872914e-8288-11e8-9536-aa6d4c94c5ca.png)
+![image](https://user-images.githubusercontent.com/24622526/42419961-19fe5396-82dc-11e8-9725-27550de8b34a.png)
