@@ -10,7 +10,7 @@ GitHub Dev/Support Team - 24/5: (Level-2 - Support)
 	Upgrades.
 	Support.
 	Any development activities. (GitHub API java dev)
-	Installing Hooks. (pre-commit hooks, post-commit hooks, playloads, evenits etc)
+	Installing Hooks. (pre-commit hooks, post-commit hooks, playloads, events etc)
 	Integrate GitHub with other collabaration tools like JIRA, Genkins etc
 	
 
