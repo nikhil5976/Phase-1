@@ -32,3 +32,14 @@ Production code - SBILoans - LoginApp
 Selenium - AutomationSBILoans - LoginAppTest
 
 Service - SBILoansService
+
+
+Dev team daily practice
+
+	1. first "pull".
+
+	2. do your modifications on your local repo.
+
+	3. "pull" again.
+
+	4. commit & push.
