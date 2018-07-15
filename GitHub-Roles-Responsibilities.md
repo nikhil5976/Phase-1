@@ -23,7 +23,7 @@ DevOps Engineers/Build & Release Engineers: 24/7 (DevOps Managers/Release Manage
 	adding/removing repos.
 	adding/removing orgs/projects.
 	adding/removing teams/groups.
-	Protecting code/branches.
+	Protecting code/branches. (Lock the branch)
 	
 Dev Team/Testing/Service - code commit/merge.
 
