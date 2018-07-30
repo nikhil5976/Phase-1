@@ -11,6 +11,8 @@ Or keep the script in GitHub and configure it in the jenkins job.
 
 ![image](https://user-images.githubusercontent.com/24622526/43383731-6e588b78-93cb-11e8-8294-b1e47ebc0be7.png)
 
+Refer the groovy file in jenkins job configuration:
+
 ![image](https://user-images.githubusercontent.com/24622526/43383756-7fdc66bc-93cb-11e8-8767-15868b4978b4.png)
 
 ### If you want to pass the paramter from jenkins and read the parameter value in groovy script.
