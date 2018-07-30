@@ -7,7 +7,7 @@ Create a new job with Freestyle template. and configure the script in the job as
 
 ![image](https://user-images.githubusercontent.com/24622526/43383336-34855044-93ca-11e8-91fb-82a9adbefa0e.png)
 
-Or keep the script in Git and comfogie in the jenkins job.
+Or keep the script in GitHub and configure it in the jenkins job.
 
 ![image](https://user-images.githubusercontent.com/24622526/43383731-6e588b78-93cb-11e8-8294-b1e47ebc0be7.png)
 
