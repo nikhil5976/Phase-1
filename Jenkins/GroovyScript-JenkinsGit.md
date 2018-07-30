@@ -13,6 +13,8 @@ Or keep the script in Git and comfogie in the jenkins job.
 
 ![image](https://user-images.githubusercontent.com/24622526/43383756-7fdc66bc-93cb-11e8-8767-15868b4978b4.png)
 
-If you want to pass the paramter from jenkins and read the parameter value in groovy script.
+### If you want to pass the paramter from jenkins and read the parameter value in groovy script.
+
+![image](https://user-images.githubusercontent.com/24622526/43384336-44fc229c-93cd-11e8-8b0a-9fb1f7f85691.png)
 
 ![image](https://user-images.githubusercontent.com/24622526/43384260-005c77cc-93cd-11e8-89e8-e0ac96b94291.png)
