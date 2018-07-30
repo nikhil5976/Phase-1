@@ -23,7 +23,7 @@ Or keep the script in Git and comfogie in the jenkins job.
 
 ![image](https://user-images.githubusercontent.com/24622526/43384417-859cff4c-93cd-11e8-808c-c5a3ebb1b805.png)
 
-### Solution: Go to ManageJenkins --> In-Process script Approval --> Approve (You may supposed to do this repeatedly whenever you get this type of issue)
+### Solution: Go to ManageJenkins --> In-Process script Approval --> Approve (You may need to do this again whenever you get this type of issue)
 
 ![image](https://user-images.githubusercontent.com/24622526/43384466-aa911ac2-93cd-11e8-98bc-107e5ce645dc.png)
 
