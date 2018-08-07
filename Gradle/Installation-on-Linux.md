@@ -1,24 +1,31 @@
 
-#Make sure Java is already installed on your machine.
+#### Make sure Java is already installed on your machine.
 
-#Download Gradle
-wget https://services.gradle.org/distributions/gradle-4.9-bin.zip
+#### Download Gradle
 
-#Create a directory gradle under the directory /opt.
-mkdir /opt/gradle
+    wget https://services.gradle.org/distributions/gradle-4.9-bin.zip
 
-#Install unzip package if it is not installed on your machine.
-yum install unzip
+#### Create a directory gradle under the directory /opt.
 
-#Unzip gradle zip to the directiry /opt/gradle
-unzip -d /opt/gradle gradle-4.9-bin.zip
+    mkdir /opt/gradle
 
-#List the file of gradle
-ls /opt/gradle/gradle-4.9
+#### Install unzip package if it is not installed on your machine.
 
-#Path setup
-export PATH=$PATH:/opt/gradle/gradle-4.9/bin
+    yum install unzip
 
-#Check the gradle version
-gradle -v
+#### Unzip gradle zip to the directiry /opt/gradle
+
+    unzip -d /opt/gradle gradle-4.9-bin.zip
+
+#### List the file of gradle
+
+    ls /opt/gradle/gradle-4.9
+
+#### Path setup
+
+    export PATH=$PATH:/opt/gradle/gradle-4.9/bin
+
+#### Check the gradle version
+
+    gradle -v
 
