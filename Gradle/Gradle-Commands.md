@@ -1,0 +1,4 @@
+
+#### Run the command to find the list of Gradle commands for various purposes.
+
+gradle tasks
