@@ -1,11 +1,11 @@
 
 
-CI - CD - Jenkins, Teamcity, Bamboo etc
+#### CI - CD - Jenkins, Teamcity, Bamboo etc
 
 Code is ready as per requirement
 
-Build
-	chckout the code
+### Build
+	checkout the code
 	compile the source code
 	compiple the jnunit test source code
 	run the jnunit tests
@@ -13,9 +13,9 @@ Build
 	code quality check	
 	packaging the compiled code
 	
-Deploy (to nexus - repo manager AND env/server) - Script, Ansible, Docker, puppet, chef etc
+### Deploy (to nexus - repo manager AND env/server) - Script, Ansible, Docker, puppet, chef etc
 
-Test (Selelium/Tosca etc)
+### Test (Selelium/Tosca etc)
 
 
 #CI-CD Pipleine implementation in Jenkins
