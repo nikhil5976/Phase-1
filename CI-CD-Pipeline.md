@@ -8,7 +8,7 @@ Code is ready as per requirement
 	checkout the code
 	compile the source code
 	compiple the jnunit test source code
-	run the jnunit tests
+	run the unit tests
 	code coverage check
 	code quality check	
 	packaging the compiled code
