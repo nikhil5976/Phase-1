@@ -18,7 +18,7 @@ Code is ready as per requirement
 ### Test (Selelium/Tosca etc)
 
 
-#CI-CD Pipleine implementation in Jenkins
+# CI-CD Pipleine implementation in Jenkins
 
 
 ![image](https://user-images.githubusercontent.com/24622526/42419961-19fe5396-82dc-11e8-9725-27550de8b34a.png)
