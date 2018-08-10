@@ -12,9 +12,13 @@ Code is ready as per requirement
 	code coverage check
 	code quality check	
 	packaging the compiled code
+	deploy the package to repository manager (ex: nexus, jfrog artifactory)
 	
-### Deploy (to nexus - repo manager AND env/server) - Script, Ansible, Docker, puppet, chef etc
+### Deploy (to env/server) - Script, Ansible, Docker, puppet, chef etc
 
+	* Testing Environments: dev, system, perfromance, pre-prod/UAT.
+	* Final env: Prodcution
+	
 ### Test (Selelium/Tosca etc)
 
 
