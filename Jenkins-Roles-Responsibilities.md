@@ -13,6 +13,8 @@ Jenkins Dev/Support Team - 24/5: (Level-2 - Support)
 	Setup Slaves.
 	Backup.
 	Creating/Managing Jenkins servers.
+	Migrating
+	Upgrating from current version to new version.
 	
 
 ALM/DevOps Support/LTS: 24/5 (Level-1 - Support) - this team will support for all the DevOps tools.
