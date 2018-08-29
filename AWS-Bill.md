@@ -66,3 +66,7 @@ Daily practice: 2 to 4 hrs (except Sunday) - Aug month billing details.
 279.28 INR: 23-08-2018 04:56pm
 
 304.33 INR: 27-08-2018 18:26pm
+
+328.08 INR: 28-08-2018 11:57am
+
+369.18 INR: 29-08-2018 10:08am
