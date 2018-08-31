@@ -70,3 +70,9 @@ Daily practice: 2 to 4 hrs (except Sunday) - Aug month billing details.
 328.08 INR: 28-08-2018 11:57am
 
 369.18 INR: 29-08-2018 10:08am
+
+429.91 INR: 30-08-2018 03:33pm (Practiced DevOps setup on t2.xlarge machine)
+
+453.66 INR: 31-08-2018 01:38pm (Practiced DevOps setup on t2.xlarge machine)
+
+
