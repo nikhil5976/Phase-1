@@ -14,7 +14,7 @@ Code is ready as per requirement
 	packaging the compiled code
 	deploy the package to repository manager (ex: nexus, jfrog artifactory)
 	
-### Deploy (to env/server) - Script, Ansible, Docker, puppet, chef etc
+### Deploy (to env/server) - Script, Ansible, puppet, chef, Docker, Kubernetes etc
 
 	* Testing Environments: dev, system, perfromance, pre-prod/UAT.
 	* Final env: Prodcution
