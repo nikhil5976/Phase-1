@@ -1,8 +1,6 @@
 # Refer: https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04
 
-apt update -y 
-
-apt install openjdk-8-jdk -y
+apt update -y && apt install openjdk-8-jdk git -y
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
@@ -21,7 +19,7 @@ echo Download maven:
 
 #Unzip tar file
 echo Unzip tar file
- tar zxpvf apache-maven-3.5.4-bin.tar.gz
+tar zxpvf apache-maven-3.5.4-bin.tar.gz
 
 #maven home path depedns on the user: here we are running from root user. /home/ec2-user/apache-maven-3.5.4
 echo maven home: /root/apache-maven-3.5.4
