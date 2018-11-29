@@ -35,3 +35,17 @@ export PATH=$M3:$PATH
 echo check maven: mvn -v
 mvn -v
 
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+sudo apt update
+
+sudo apt install jenkins
+
+systemctl status jenkins
+
+sudo ufw allow 8080
+
+sudo ufw status
+
