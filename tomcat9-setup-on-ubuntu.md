@@ -8,11 +8,11 @@ Jenkins home path: /usr/lib/jvm/java-11-openjdk-amd64/
 
 sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat
 
-wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.11/bin/apache-tomcat-9.0.11.tar.gz -P /tmp
+wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.13/bin/apache-tomcat-9.0.13.tar.gz -P /tmp
 
 sudo tar xf /tmp/apache-tomcat-9*.tar.gz -C /opt/tomcat
 
-sudo ln -s /opt/tomcat/apache-tomcat-9.0.11 /opt/tomcat/latest
+sudo ln -s /opt/tomcat/apache-tomcat-9.0.13 /opt/tomcat/latest
 
 sudo chown -RH tomcat: /opt/tomcat/latest
 
