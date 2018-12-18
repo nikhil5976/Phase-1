@@ -102,3 +102,10 @@
 
 #### iostat -xtc 5 3
 
+#### `apt-get install htop`
+
+  * htop
+  
+#### `apt-get install nmon`
+
+  * nmon
