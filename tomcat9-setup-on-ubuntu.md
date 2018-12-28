@@ -1,8 +1,6 @@
 Refer: https://linuxize.com/post/how-to-install-tomcat-9-on-ubuntu-18-04/
 
-sudo apt update
-
-sudo apt install default-jdk
+sudo apt update && sudo apt install default-jdk -y
 
 Jenkins home path: /usr/lib/jvm/java-11-openjdk-amd64/
 
