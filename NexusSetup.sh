@@ -46,7 +46,7 @@ service nexus status
 #Note-2:Please "Crosscheck" whether those details are correct are not. Update the paths if they are different.
 
 #Installation Procedure:
-#Step-1: Copy the lines from 4 to 21, and then paste it on yout terminal. All the commands will be executed one by one.
+#Step-1: Copy the lines from 4 to 22, and then paste it on yout terminal. All the commands will be executed one by one.
 #Step-2: Manually you need to update the file /etc/init.d/nexus with NEXUS HOME as instructed in line number 22-25.
 #Step-3: Copy the lines from 27 to 38, and then paste it on yout terminal. All the commands will be executed one by one.
 #Step-4: Login with below default credentials.
