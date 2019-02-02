@@ -29,7 +29,7 @@ echo Check the java version
 java -version
 
 #Java Home path: /usr/java/jdk1.8.0_131
-echo Java Home path: /usr/java/jdk1.8.0_201-amd64
+echo Java Home path: $JAVA_HOME
 
 #===========================JAVA INSTALLATION END=========================================
 
