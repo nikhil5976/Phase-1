@@ -15,7 +15,7 @@ node{
 		git credentialsId: 'jenkinsGitHub', url: 'https://github.com/DIGITALAPPLICATION/WebApp.git'
 	}
 	stage('build'){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean verify'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean verify'
 	}
 }
 ------------------------------------------------------------------------------------------
@@ -26,13 +26,13 @@ node{
 		git credentialsId: 'jenkinsGitHub', url: 'https://github.com/DIGITALAPPLICATION/WebApp.git'
 	}
 	stage('build'){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean compile'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean compile'
 	}
 	stage('test'){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean test'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean test'
 	}
                stage('deploy-to-nexus'){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean deploy'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean deploy'
 	}
 }
 ------------------------------------------------------------------------------------------
@@ -44,13 +44,13 @@ node{
 		git credentialsId: 'jenkinsGitHub', url: 'https://github.com/DIGITALAPPLICATION/WebApp.git'
 	}
 	stage('build'){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean compile'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean compile'
 	}
 	stage('test'){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean test'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean test'
 	}
 	stage('deploy-to-nexus'){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean deploy'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean deploy'
 	}
 	stage('deploy-to-tomcat'){
 		sh '''
@@ -76,7 +76,7 @@ node{
 		git credentialsId: 'jenkinsGitHub', url: 'https://github.com/DIGITALAPPLICATION/WebApp.git'
 	}
 	stage(' build(compile+test+deploy the package to nexus) '){
-		sh '"/root/apache-maven-3.5.3/bin/mvn" -V clean deploy'
+		sh '"/root/apache-maven-3.5.4/bin/mvn" -V clean deploy'
 	}
 	stage('deploy-to-tomcat'){
 		sh '''
