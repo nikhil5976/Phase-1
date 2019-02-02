@@ -175,7 +175,7 @@ mvn -v
 #Note-2:Please "Crosscheck" whether those details are correct are not. Update the paths if they are different.
 
 #Installation Procedure:
-#Step-1: Copy the lines from 1 to 170, and then paste it on yout terminal. All the commands will be executed one by one.
+#Step-1: Copy the lines from 1 to 170, and then paste it on the terminal when you connected to EC2 instance. All the commands will be executed one by one.
 #Step-2: Run the below commands make sure java, git, maven installed properly.
 #java -version, mvn -v, git --version
 #Step-3: Run this command, jenkins.war should be there: ll tomcat7/webapps/
