@@ -173,6 +173,7 @@ mvn -v
 #===========================Tomcat service auto start on reboot========================================
 
 sudo vi /etc/systemd/system/tomcat.service
+
 	echo'''
 	[Unit]
 	Description=Tomcat 7 servlet container
@@ -219,5 +220,6 @@ sudo systemctl status tomcat
 #Step-2: Run the below commands make sure java, git, maven installed properly.
 #java -version, mvn -v, git --version
 #Step-3: Run this command, jenkins.war should be there: ll tomcat7/webapps/
-#Step-4: Take care of manual actions from line number 90 to 101. (if you have any doubts, go to the section "Tomcat Start-up" in the end of the pages in AWS-TOMCAT-JENKINS.doc)
-#Step-5: Take care of manual actions from line number 119 to 148 (if you have any doubts, go to the section "Jenkins Start-up" in the middle of the pages in AWS-TOMCAT-JENKINS.doc).
+#Step-4: Manual updates from line number 90 to 101. (if you have any doubts, go to the section "Tomcat Start-up" in the end of the pages in AWS-TOMCAT-JENKINS.doc)
+#Step-5: Manual updates from line number 119 to 148 (if you have any doubts, go to the section "Jenkins Start-up" in the middle of the pages in AWS-TOMCAT-JENKINS.doc).
+#Step-6: Go thru the manual steps from line number 175 to 207. 
