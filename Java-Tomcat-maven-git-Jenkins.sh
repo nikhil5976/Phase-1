@@ -170,47 +170,6 @@ mvn -v
 
 #===========================GIT INSTALLATION END========================================================
 
-#===========================Tomcat service auto start on reboot========================================
-
-sudo vi /etc/systemd/system/tomcat.service
-
-	echo'''
-	[Unit]
-	Description=Tomcat 7 servlet container
-	After=network.target
-
-	[Service]
-	Type=forking
-
-	User=root
-	Group=root
-
-	Environment="JAVA_HOME=/usr/java/jdk1.8.0_201-amd64/"
-	Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom -Djava.awt.headless=true"
-
-	Environment="CATALINA_BASE=/root/tomcat7"
-	Environment="CATALINA_HOME=/root/tomcat7"
-	Environment="CATALINA_PID=/root/tomcat7/temp/tomcat.pid"
-	Environment="CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC"
-
-	ExecStart=/root/tomcat7/bin/startup.sh
-	ExecStop=/root/tomcat7/bin/shutdown.sh
-
-	[Install]
-	WantedBy=multi-user.target
-	'''
-
-sudo systemctl daemon-reload
-
-sudo systemctl start tomcat
-
-sudo systemctl status tomcat
-
-#sudo systemctl restart tomcat
-
-
-#===========================Tomcat service auto start on reboot========================================
-
 #Note:
 #Note-1: Marked with the workds "Crosscheck" & "Update" for manual actions. Search for those workds in this file and take an action accordingly.
 #Note-2:Please "Crosscheck" whether those details are correct are not. Update the paths if they are different.
