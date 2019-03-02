@@ -76,11 +76,11 @@ echo'
 echo Tomcat Setup:
 #Download Tomcat
 echo Download Tomcat
-wget http://ftp.cixug.es/apache/tomcat/tomcat-7/v7.0.92/bin/apache-tomcat-7.0.92.tar.gz
+wget http://ftp.cixug.es/apache/tomcat/tomcat-7/v7.0.42/bin/apache-tomcat-7.0.42.tar.gz
 
 #Unzip tar file
 echo Unzip tar file
-tar zxpvf apache-tomcat-7.0.92.tar.gz
+tar zxpvf apache-tomcat-7.0.42.tar.gz
 
 #Move to folder
 echo Move to folder
